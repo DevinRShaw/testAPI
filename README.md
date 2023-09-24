@@ -26,8 +26,8 @@ This repository contains a Flask-based API designed to serve CSV data files in J
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install flask` if not already installed.
 3. Run the Flask application with `python app.py`.
-4. Access the CSV data as JSON by making GET requests to the specified endpoints.
-5. Example program is included as test.py, run this to print the data received 
+4. Run 'python test.py' to access the CSV data as JSON by making GET requests to the specified endpoints.
+
 
 Feel free to customize and expand upon this codebase to suit your specific data-serving needs or use it as a learning resource for Flask-based API development.
 
