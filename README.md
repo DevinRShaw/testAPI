@@ -10,10 +10,11 @@ This repository contains a Flask-based API designed to serve CSV data files in J
 
 ## How it works
 
-1. The API utilizes Flask, a popular Python web framework, to create routes for each CSV file.
-2. CSV data is read and converted into a list of dictionaries using the `csv.DictReader` class.
-3. The data is then serialized into JSON format using Flask's `jsonify` function.
-4. Users can access the data by sending GET requests to the respective endpoints.
+1. The API utilizes Flask, a popular Python web framework.
+2. Blueprint is used to create routes accessing CSV files.
+3. CSV data is read and converted into a list of dictionaries using the `csv.DictReader` class.
+4. The data is then serialized into JSON format using Flask's `jsonify` function.
+5. Users can access the data by sending GET requests to the respective endpoints.
 
 ## Why this is useful
 
